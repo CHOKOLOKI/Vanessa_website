@@ -1,0 +1,26 @@
+* {
+    box-sizing: box;
+}
+
+
+.nav {
+    background-color: aliceblue;
+    border-style: solid;
+    height: 50px;
+    width: 100%;
+    color: #010101;
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    border-radius: 40px 40px 40px 40px;
+}
+
+#flag {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+}
