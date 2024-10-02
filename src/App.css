@@ -7,25 +7,22 @@ body {
   height: 100vh;
 }
 
-.navbar {
-  position: fixed;
-  top: 5%;
-  left: 20%;
-  width: 60%;
-  padding: 10px;
-  display:flex;
-  background-blend-mode: darken;
-  padding: 1rem;
-  z-index: 1000; /* make sure it's on top of other elements */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#table {
+.navbar {
   flex: 1;
-  overflow-y: auto; 
-  padding: 20px;
-  top: 50px;
-  background-image: url(../public/images/van_essa.png);
-  background-size: cover;
-  width: 100%;
+  bottom: 85%;
+  height: 70px;
+  position: fixed;
+  width: 80%;
+  background-blend-mode: darken;
   z-index: 1000;
+  gap: 1rem;
 }
+
+

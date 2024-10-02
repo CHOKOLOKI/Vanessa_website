@@ -1,0 +1,16 @@
+* {
+  box-sizing: box;
+}
+
+.container {
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    height: 80vh; 
+    width: 100%;
+    justify-content: first baseline;
+    align-items: center;
+    background-image: url(../../public/images/van_essa.png);
+    background-size: cover;
+    
+  }
