@@ -4,9 +4,9 @@
 
 
 .nav {
-    background-color: aliceblue;
+    background-color: white;
     border-style: solid;
-    height: 50px;
+    height: 70px;
     width: 100%;
     color: #010101;
     display: flex;
