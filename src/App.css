@@ -25,4 +25,18 @@ body {
   gap: 1rem;
 }
 
+.Book {
+    background-color: #fdebe9;
+    color: #010101;
+    padding: 1rem 2rem;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.Info {
+  border-style: solid;
+  border-bottom: 5px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
