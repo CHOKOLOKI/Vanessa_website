@@ -13,11 +13,11 @@ function App() {
       <div className='table-container' id='table'>
         <Logotable />
       </div>
-      <div className='buttons'>
-          <button href='#' className='Book'>Book Now</button>
-          <button href='#' className='Info'>Information</button>
+        <div class="button-container">
+          <button class="Book">Book Now</button>
+          <button class="Info">Information</button>
+        </div>
       </div>
-    </div>
   );
 }
 
