@@ -4,13 +4,12 @@
 
 .container {
     position: relative;
-    bottom: 40px;
+    bottom: 90px;
     display: flex;
-    height: 80vh; 
+    height: 85vh; 
     width: 100%;
     justify-content: first baseline;
     align-items: center;
     background-image: url(../../public/images/van_essa.png);
     background-size: cover;
-    
   }

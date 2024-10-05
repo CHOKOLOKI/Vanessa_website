@@ -25,4 +25,60 @@ body {
   gap: 1rem;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
 
+.Book {
+  background-color: #fdebe9;
+  color: #010101;
+  padding: 1rem 2rem;
+  border-style: solid;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 25vh;
+}
+
+.Book:hover {
+  background-color: #010101;
+  color: #fdebe9;
+  padding: 1rem 2rem;
+  border-style: solid;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 25vh;
+}
+
+
+.Info {
+  background-color: transparent;
+  height: 10vh;
+  width: 25vh;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.Info:hover {
+  background-color: black;
+  color: #fdebe9;
+  height: 10vh;
+  width: 25vh;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.Book, .Info {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 40px;
+}
